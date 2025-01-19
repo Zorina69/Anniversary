@@ -14,10 +14,10 @@ body{
     flex-direction: column;
 }
 .container{
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 90px;
 }
 h1{
     font-size: 50px;
@@ -30,4 +30,38 @@ h1{
     background-image: url(https://th.bing.com/th/id/OIP.dK8u8q3dkCRx5H8OKJSV7wHaF6?rs=1&pid=ImgDetMain);
     background-size: cover;
     background-position: center;
+}
+#date{
+    font-size: 20px;
+    color: darkblue;
+    text-align: center;
+}
+#script{
+    border-radius: 20px;
+    width: 90%;
+    height: 440px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 100px;
+    text-align: center;
+}
+#script p{
+    font-size: 23px;
+    color: blue;
+    padding: 20px;
+}
+#button{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
